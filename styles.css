@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.food-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.food-img {
+  max-width: 250px;
+  max-height: 250px;
+}
